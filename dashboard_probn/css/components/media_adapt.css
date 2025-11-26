@@ -1,0 +1,32 @@
+
+@media (max-width: 1200px) {
+    .select-box {
+        max-width: 300px;
+        margin: 20px auto; 
+    }
+
+    .select-box__list {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .select-box {
+        max-width: 100%;
+        margin: 10px; 
+    }
+
+    .select-box__current {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .select-box__option {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .select-box__list {
+        max-width: 100%;
+    }
+}
